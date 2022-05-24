@@ -2,13 +2,13 @@ from secrets import choice
 from pyrogram import filters
 from pyrogram.errors import RPCError
 from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, Message
-from Rose import app
-from Rose.mongo.notesdb import Notes, NotesSettings
-from Rose.utils.cmd_senders import send_cmd
-from Rose.utils.custom_filters import admin_filter, command, owner_filter
-from Rose.utils.kbhelpers import rkb as ikb
-from Rose.utils.msg_types import Types, get_note_type
-from Rose.utils.string import (
+from HarryPotter import app
+from HarryPotter.mongo.notesdb import Notes, NotesSettings
+from HarryPotter.utils.cmd_senders import send_cmd
+from HarryPotter.utils.custom_filters import admin_filter, command, owner_filter
+from HarryPotter.utils.kbhelpers import rkb as ikb
+from HarryPotter.utils.msg_types import Types, get_note_type
+from HarryPotter.utils.string import (
     build_keyboard,
     escape_mentions_using_curly_brackets,
     parse_button,
