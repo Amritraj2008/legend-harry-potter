@@ -1,5 +1,5 @@
-from Rose import app
-from Rose.utils.msg_types import Types
+from HarryPotter import app
+from HarryPotter.utils.msg_types import Types
 
 async def send_cmd(client: app, msgtype: int):
     GET_FORMAT = {
