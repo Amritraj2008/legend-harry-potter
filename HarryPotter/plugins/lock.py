@@ -2,23 +2,23 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, Message
 from pyrogram.errors.exceptions.bad_request_400 import ChatNotModified,ChatAdminRequired,UserNotParticipant
 from pyrogram.types import ChatPermissions
-from Rose.plugins.admin import current_chat_permissions, member_permissions
+from HarryPotter.plugins.admin import current_chat_permissions, member_permissions
 from lang import get_command
-from Rose.utils.lang import *
-from Rose.utils.filter_groups import *
+from HarryPotter.utils.lang import *
+from HarryPotter.utils.filter_groups import *
 from typing import Union
-from Rose.plugins.protection import *
-from Rose.mongo.approvedb import Approve
-from Rose.mongo.locksdb import *
+from HarryPotter.plugins.protection import *
+from HarryPotter.mongo.approvedb import Approve
+from HarryPotter.mongo.locksdb import *
 import os
-from Rose import *
+from HarryPotter import *
 from pyrogram.types import MessageEntity
-from Rose import BOT_ID, app as pbot, MONGO_URL as  MONGO_DB_URI
+from HarryPotter import BOT_ID, app as pbot, MONGO_URL as  MONGO_DB_URI
 
 approved_users = db.approve
 
 client = MongoClient(MONGO_DB_URI)
-dbd = client["szrosebot"]
+dbd = client["harrypotter"]
 approved_users = dbd.approve
 db = dbd
 
