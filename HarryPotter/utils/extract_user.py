@@ -1,8 +1,8 @@
 from traceback import format_exc
 from typing import Tuple
 from pyrogram.types.messages_and_media.message import Message
-from Rose import app 
-from Rose.mongo.usersdb import Users
+from HarryPotter import app 
+from HarryPotter.mongo.usersdb import Users
 
 
 async def extract_user(c: app, m: Message) -> Tuple[int, str, str]:
