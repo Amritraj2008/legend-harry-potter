@@ -4,7 +4,7 @@
 # This file is part of @szrosebot (Telegram Bot)
 
 from pymongo import MongoClient
-from Rose import MONGO_URL
+from HarryPotter import MONGO_URL
 
 class captchas():
     def __init__(self):
