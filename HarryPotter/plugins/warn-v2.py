@@ -6,15 +6,15 @@ from pyrogram.types import (
     ChatPermissions,
     Message,
 )
-from Rose.core.keyboard import ikb
-from Rose import app, BOT_ID
-from Rose.mongo.warnsdb import Warns, WarnSettings
-from Rose.core.decorators.permissions import adminsOnly
-from Rose.utils.caching import ADMIN_CACHE, admin_cache_reload
-from Rose.utils.custom_filters import admin_filter, command, restrict_filter
-from Rose.utils.extract_user import extract_user
-from Rose.utils.parser import mention_html
-from Rose.utils.lang import *
+from HarryPotter.core.keyboard import ikb
+from HarryPotter import app, BOT_ID
+from HarryPotter.mongo.warnsdb import Warns, WarnSettings
+from HarryPotter.core.decorators.permissions import adminsOnly
+from HarryPotter.utils.caching import ADMIN_CACHE, admin_cache_reload
+from HarryPotter.utils.custom_filters import admin_filter, command, restrict_filter
+from HarryPotter.utils.extract_user import extract_user
+from HarryPotter.utils.parser import mention_html
+from HarryPotter.utils.lang import *
 
 @app.on_message(command(["warn", "swarn", "dwarn"]) & restrict_filter)
 @language
