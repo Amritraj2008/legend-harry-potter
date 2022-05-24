@@ -1,14 +1,14 @@
 import asyncio
-from  Rose import app
-from Rose.mongo.captcha import captchas
+from  HarryPotter import app
+from HarryPotter.mongo.captcha import captchas
 from pyrogram.errors import UserNotParticipant
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, ChatPermissions
 from pyrogram import filters
 from . antlangs import *
-from Rose.Inline.query import *
+from HarryPotter.Inline.query import *
 from lang import get_command
-from Rose.utils.commands import *
-from Rose.utils.lang import *
+from HarryPotter.utils.commands import *
+from HarryPotter.utils.lang import *
 
 CAPTCH = get_command("CAPTCH")
 REMOVEC = get_command("REMOVEC")
