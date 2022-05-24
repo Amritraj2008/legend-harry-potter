@@ -6,12 +6,12 @@ from pyrogram.types import (
     InlineKeyboardMarkup,
     Message,
 )
-from Rose.__main__ import HELPABLE
-from Rose import  app
-from Rose.mongo.disabledb import Disabling
-from Rose.core.decorators.permissions import adminsOnly
+from HarryPotter.__main__ import HELPABLE
+from HarryPotter import  app
+from HarryPotter.mongo.disabledb import Disabling
+from HarryPotter.core.decorators.permissions import adminsOnly
 from lang import get_command
-from Rose.utils.lang import *
+from HarryPotter.utils.lang import *
 
 DISABLE  = get_command("DISABLE")
 DISABLEDEL = get_command("DISABLEDEL")
