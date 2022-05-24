@@ -1,6 +1,6 @@
 from typing import Dict, List
 from pyrogram.types import InlineKeyboardButton
-from Rose import MOD_LOAD, MOD_NOLOAD
+from HarryPotter import MOD_LOAD, MOD_NOLOAD
 
 
 class EqInlineKeyboardButton(InlineKeyboardButton):
