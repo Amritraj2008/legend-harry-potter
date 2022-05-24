@@ -1,13 +1,13 @@
 from pyrogram.errors import InputUserDeactivated,FloodWait, UserIsBlocked, PeerIdInvalid
 import datetime
 from pyrogram import filters
-from Rose import *
-from Rose.Inline import *
-from Rose.mongo.filterdb import Filters
-from Rose.mongo.notesdb import Notes
-from Rose.mongo.rulesdb import Rules
-from Rose.mongo.usersdb import *
-from Rose.mongo.chatsdb import *
+from HarryPotter import *
+from HarryPotter.Inline import *
+from HarryPotter.mongo.filterdb import Filters
+from HarryPotter.mongo.notesdb import Notes
+from HarryPotter.mongo.rulesdb import Rules
+from HarryPotter.mongo.usersdb import *
+from HarryPotter.mongo.chatsdb import *
 from pyrogram import __version__ as pyrover
 import asyncio
 import time
