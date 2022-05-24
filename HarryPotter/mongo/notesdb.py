@@ -2,8 +2,8 @@ from hashlib import md5
 from threading import RLock
 from time import time
 
-from Rose.mongo import MongoDB
-from Rose.utils.msg_types import Types
+from HarryPotter.mongo import MongoDB
+from HarryPotter.utils.msg_types import Types
 
 INSERTION_LOCK = RLock()
 
