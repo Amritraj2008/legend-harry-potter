@@ -1,4 +1,4 @@
-from Rose.mongo import antiservicedb
+from HarryPotter.mongo import antiservicedb
 
 async def is_antiservice_on(chat_id: int) -> bool:
     chat = await antiservicedb.find_one({"anti_service": chat_id})
