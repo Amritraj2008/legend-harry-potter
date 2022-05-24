@@ -2,7 +2,7 @@ import glob
 import importlib
 import sys
 from os.path import basename, dirname, isfile
-from Rose import MOD_LOAD, MOD_NOLOAD
+from HarryPotter import MOD_LOAD, MOD_NOLOAD
 
 def __list_all_modules():
     mod_paths = glob.glob(dirname(__file__) + "/*.py")
