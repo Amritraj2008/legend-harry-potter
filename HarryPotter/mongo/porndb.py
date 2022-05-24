@@ -3,7 +3,7 @@
 
 # This file is part of @szrosebot (Telegram Bot)
 
-from Rose import *
+from HarryPotter import *
 import pymongo
 
 myclient = pymongo.MongoClient(DB_URI)
