@@ -1,6 +1,6 @@
 from threading import RLock
-from Rose.mongo import MongoDB
-from Rose.utils.msg_types import Types
+from HarryPotter.mongo import MongoDB
+from HarryPotter.utils.msg_types import Types
 
 INSERTION_LOCK = RLock()
 
