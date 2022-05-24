@@ -2,7 +2,7 @@
 
 # Rose Bot ✨ <img src="https://img.shields.io/github/v/release/szsupunma/sz-rosebot?color=black&logo=github&logoColor=black&style=social" alt="RELEASE">
 [![Stars](https://img.shields.io/github/stars/szsupunma/sz-rosebot?style=flat-square&color=Dark)](https://github.com/szsupunma/sz-rosebot/stargazers)
-[![Forks](https://img.shields.io/github/forks/szsupunma/sz-rosebot?style=flat-square&color=orange)](https://github.com/szsupunma/sz-rosebot/fork)
+[![Forks](https://img.shields.io/github/forks/szsupunma/sz-rosebot?style=flat-square&color=orange)](https://github.com/amritraj2008/legend-harry-potter-2/fork)
 [![Size](https://img.shields.io/github/repo-size/szsupunma/sz-rosebot?style=flat-square&color=green)](https://github.com/szsupunma/sz-rosebot/)   
 [![Python](https://img.shields.io/badge/Python-v3.9.9-blue)](https://www.python.org/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/szsupunma/sz-rosebot/graphs/commit-activity)
