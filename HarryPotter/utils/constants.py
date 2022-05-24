@@ -1,12 +1,12 @@
-# Copyright (C) 2022 szsupunma
-# Copyright (C) 2021 @szrosebot
+# Copyright (C) 2022 tech_sav_bots
+# Copyright (C) 2021 @legend_harry_bot
 
-# This file is part of @szrosebot (Telegram Bot)
+
 
 from pyrogram.filters import command, edited
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from Rose import BOT_USERNAME, app
+from HarryPotter import BOT_USERNAME, app
 
 MARKDOWN = """
 Read the below text carefully to find out how formatting works!
