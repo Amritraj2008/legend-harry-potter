@@ -1,5 +1,5 @@
 from lang import get_string
-from Rose.mongo.language import *
+from HarryPotter.mongo.language import *
 from functools import wraps
 
 def language(func):
