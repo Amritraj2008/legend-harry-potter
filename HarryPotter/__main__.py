@@ -4,18 +4,18 @@ import re
 import uvloop
 from pyrogram import filters, idle
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from Rose.menu import *
-from Rose import *
-from Rose.plugins import ALL_MODULES
-from Rose.utils import paginate_modules
+from HarryPotter.menu import *
+from HarryPotter import *
+from HarryPotter.plugins import ALL_MODULES
+from HarryPotter.utils import paginate_modules
 from lang import get_command
-from Rose.utils.lang import *
-from Rose.utils.commands import *
-from Rose.mongo.rulesdb import *
-from Rose.utils.start import *
-from Rose.mongo.usersdb import *
-from Rose.mongo.restart import *
-from Rose.mongo.chatsdb import *
+from HarryPotter.utils.lang import *
+from HarryPotter.utils.commands import *
+from HarryPotter.mongo.rulesdb import *
+from HarryPotter.utils.start import *
+from HarryPotter.mongo.usersdb import *
+from HarryPotter.mongo.restart import *
+from HarryPotter.mongo.chatsdb import *
 
 
 loop = asyncio.get_event_loop()
@@ -55,7 +55,7 @@ async def start_bot():
  _____________________________________________   
 |                                             |  
 |          Deployed Successfully              |  
-|         (C) 2021-2022 by @szteambots        | 
+|         (C) 2021-2022 by @tech_sav_bots        | 
 |          Greetings from supun  :)           |
 |_____________________________________________|  
                                                                                                
