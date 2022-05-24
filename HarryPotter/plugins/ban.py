@@ -5,13 +5,13 @@ from pyrogram.types import Message
 from pyrogram.errors import RPCError
 from Rose.utils.extract_user import extract_user
 from Rose import BOT_ID, SUDOERS, app
-from Rose.utils.functions import (extract_user_and_reason,
+from HarryPotter.utils.functions import (extract_user_and_reason,
                                  time_converter)
-from Rose.core.decorators.permissions import adminsOnly
+from HarryPotter.core.decorators.permissions import adminsOnly
 from pyrogram.types import Message
 from lang import get_command
-from Rose.utils.commands import *
-from Rose.utils.lang import *
+from HarryPotter.utils.commands import *
+from HarryPotter.utils.lang import *
 
 KICK_ME = get_command("KICK_ME")
 SKICK = get_command("SKICK")
