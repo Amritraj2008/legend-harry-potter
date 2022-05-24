@@ -1,7 +1,7 @@
 #no need Multi-lang for this plugin !!!!
 
 from pyrogram import filters
-from Rose import *
+from HarryPotter import *
 from gpytranslate import Translator
 from pyrogram.types import InlineKeyboardButton
 from pyrogram.errors import PeerIdInvalid
