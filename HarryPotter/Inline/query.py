@@ -1,22 +1,22 @@
-from  Rose import bot as app
-from Rose.mongo.captcha import captchas
+from  HarryPotter import bot as app
+from HarryPotter.mongo.captcha import captchas
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from Rose.plugins.antlangs import *
+from HarryPotter.plugins.antlangs import *
 import random
-from Rose.plugins.captcha import *
-from Rose.mongo.connectiondb import *
-from Rose.plugins.lang import *
-from Rose.mongo.approvedb import Approve
-from Rose.plugins.admin import *
-from Rose.plugins.warn import *
+from HarryPotter.plugins.captcha import *
+from HarryPotter.mongo.connectiondb import *
+from HarryPotter.plugins.lang import *
+from HarryPotter.mongo.approvedb import Approve
+from HarryPotter.plugins.admin import *
+from HarryPotter.plugins.warn import *
 from EmojiCaptcha import Captcha as emoji_captcha
 import random
 from captcha.image import ImageCaptcha
-from Rose.mongo.disabledb import Disabling
-from Rose.mongo.filterdb import Filters
-from Rose.mongo.notesdb import Notes
-from Rose.mongo.blacklistdb import Blacklist
-from Rose.mongo import chatb
+from HarryPotter.mongo.disabledb import Disabling
+from HarryPotter.mongo.filterdb import Filters
+from HarryPotter.mongo.notesdb import Notes
+from HarryPotter.mongo.blacklistdb import Blacklist
+from HarryPotter.mongo import chatb
 
 db = {}
 dbf = Filters()
