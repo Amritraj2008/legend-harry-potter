@@ -1,5 +1,5 @@
-from Rose import *
-from Rose.mongo import langdb
+from HarryPotter import *
+from HarryPotter.mongo import langdb
 
 langm = {}
 
