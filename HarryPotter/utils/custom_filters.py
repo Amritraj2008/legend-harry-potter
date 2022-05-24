@@ -5,14 +5,14 @@ from typing import List, Union
 from pyrogram.errors import RPCError, UserNotParticipant
 from pyrogram.filters import create
 from pyrogram.types import CallbackQuery, Message
-from Rose import BOT_ID
-from Rose.mongo.disabledb import DISABLED_CMDS
-from Rose.core.caching import ADMIN_CACHE, admin_cache_reload
+from HarryPotter import BOT_ID
+from HarryPotter.mongo.disabledb import DISABLED_CMDS
+from HarryPotter.core.caching import ADMIN_CACHE, admin_cache_reload
 
 DEV_USERS = ""
 OWNER_ID = DEV_USERS
 SUDO_USERS = DEV_USERS
-BOT = "@szrosebot"
+BOT = "@legend_harry_bot"
 COMMAND = "/"
 SUDO_LEVEL = set(SUDO_USERS + DEV_USERS + OWNER_ID)
 DEV_LEVEL = set(DEV_USERS + OWNER_ID)
