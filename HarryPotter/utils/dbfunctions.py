@@ -3,7 +3,7 @@
 import codecs
 import pickle
 from typing import Dict, List, Union
-from Rose import db
+from HarryPotter import db
 
 restart_stagedb = db.restart_stage
 captchadb = db.captcha
