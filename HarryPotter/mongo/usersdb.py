@@ -1,10 +1,10 @@
 from threading import RLock
 from time import time
-from Rose.mongo import MongoDB
+from HarryPotter.mongo import MongoDB
 
 INSERTION_LOCK = RLock()
 
-from Rose.mongo import usersdb
+from HarryPotter.mongo import usersdb
 
 class Users(MongoDB):
     db_name = "users"
