@@ -1,5 +1,5 @@
 from asyncio import gather
-from Rose import aiohttpsession as session
+from HarryPotter import aiohttpsession as session
 
 
 async def get(url: str, *args, **kwargs):
