@@ -1,4 +1,4 @@
-from Rose.mongo import restartdb
+from HarryPotter.mongo import restartdb
 
 async def start_restart_stage(chat_id: int, message_id: int):
     await restartdb.update_one(
