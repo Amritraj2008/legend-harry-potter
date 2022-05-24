@@ -1,15 +1,15 @@
 import requests
 from pyrogram import filters
 from googletrans import Translator
-from Rose import *
-from Rose.core.decorators.permissions import adminsOnly
-from Rose.utils.filter_groups import *
+from HarryPotter import *
+from HarryPotter.core.decorators.permissions import adminsOnly
+from HarryPotter.utils.filter_groups import *
 from lang import get_command
-from Rose.utils.lang import *
-from Rose.utils.commands import *
-from Rose import *
-from Rose.mongo import chatb
-from Rose.plugins.antlangs import get_arg
+from HarryPotter.utils.lang import *
+from HarryPotter.utils.commands import *
+from HarryPotter import *
+from HarryPotter.mongo import chatb
+from HarryPotter.plugins.antlangs import get_arg
 
 
 tr = Translator()
@@ -102,11 +102,11 @@ AI based chatbot allows rose to talk and provides a more interactive group chat 
 
 
 **Available chatbots**
-• Luna - Advanced, inteligent and cute chatbot which will keep you happy all time.. 
+• Harry - Advanced, inteligent and cute chatbot which will keep you happy all time.. 
 
 
 **Language Support**
-Rose AI chatbot support almost all languages in world .
+Harry AI chatbot support almost all languages in world .
 Powered By ; `googletrans==3.1.0a0`
 """
 
