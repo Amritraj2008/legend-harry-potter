@@ -2,13 +2,13 @@ from asyncio import get_running_loop, sleep
 from time import time
 from pyrogram import filters
 from pyrogram.types import ChatPermissions,Message
-from Rose import app
-from Rose.core.decorators.errors import capture_err
-from Rose.core.decorators.permissions import adminsOnly
-from Rose.utils.filter_groups import flood_group
+from HarryPotter import app
+from HarryPotter.core.decorators.errors import capture_err
+from HarryPotter.core.decorators.permissions import adminsOnly
+from HarryPotter.utils.filter_groups import flood_group
 from lang import get_command
-from Rose.utils.lang import *
-from Rose.mongo.flooddb import *
+from HarryPotter.utils.lang import *
+from HarryPotter.mongo.flooddb import *
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 FLOOD = get_command("FLOOD")
