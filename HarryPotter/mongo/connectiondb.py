@@ -1,4 +1,4 @@
-from Rose import *
+from HarryPotter import *
 import logging
 
 logger = logging.getLogger(__name__)
