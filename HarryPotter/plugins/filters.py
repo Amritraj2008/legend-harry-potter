@@ -4,14 +4,14 @@ from secrets import choice
 from pyrogram import filters
 from pyrogram.errors import RPCError
 from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, Message, InlineKeyboardButton
-from Rose import app
-from Rose.mongo.filterdb import Filters
-from Rose.utils.cmd_senders import send_cmd
-from Rose.utils.custom_filters import command, owner_filter
-from Rose.utils.kbhelpers import rkb as ikb
-from Rose.utils.msg_types import Types, get_filter_type
-from Rose.utils.regex_utils import regex_searcher
-from Rose.utils.string import (
+from HarryPotter import app
+from HarryPotter.mongo.filterdb import Filters
+from HarryPotter.utils.cmd_senders import send_cmd
+from HarryPotter.utils.custom_filters import command, owner_filter
+from HarryPotter.utils.kbhelpers import rkb as ikb
+from HarryPotter.utils.msg_types import Types, get_filter_type
+from HarryPotter.utils.regex_utils import regex_searcher
+from HarryPotter.utils.string import (
     build_keyboard,
     escape_mentions_using_curly_brackets,
     parse_button,
@@ -20,8 +20,8 @@ from Rose.utils.string import (
 from pyrogram import filters
 from Rose.mongo.connectiondb import active_connection
 from lang import get_command
-from Rose.utils.lang import *
-from Rose.utils.filter_groups import *
+from HarryPotter.utils.lang import *
+from HarryPotter.utils.filter_groups import *
 
 db = Filters()
 FILTERS = get_command("FILTERS")
