@@ -6,15 +6,15 @@ from pyrogram.errors import (
 from pyrogram.types import (
     ChatPermissions,
 )
-from Rose import app, BOT_ID
-from Rose.utils.caching import ADMIN_CACHE, admin_cache_reload
-from Rose.utils.custom_filters import command, restrict_filter
-from Rose.utils.extract_user import extract_user
-from Rose.utils.parser import mention_html
-from Rose.utils.string import extract_time
-from Rose.utils.lang import *
-from Rose.utils.commands import *
-from Rose.core.keyboard import ikb
+from HarryPotter import app, BOT_ID
+from HarryPotter.utils.caching import ADMIN_CACHE, admin_cache_reload
+from HarryPotter.utils.custom_filters import command, restrict_filter
+from HarryPotter.utils.extract_user import extract_user
+from HarryPotter.utils.parser import mention_html
+from HarryPotter.utils.string import extract_time
+from HarryPotter.utils.lang import *
+from HarryPotter.utils.commands import *
+from HarryPotter.core.keyboard import ikb
 
 
 @app.on_message(command("tmute") & restrict_filter)
