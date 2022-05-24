@@ -1,6 +1,6 @@
 from datetime import datetime
 from threading import RLock
-from Rose.mongo import MongoDB
+from HarryPotter.mongo import MongoDB
 
 INSERTION_LOCK = RLock()
 ANTISPAM_BANNED = set()
