@@ -1,12 +1,12 @@
-from Rose import app 
-from Rose.utils.custom_filters import (
+from HarryPotter import app 
+from HarryPotter.utils.custom_filters import (
     owner_filter,
 )
-from Rose.core.decorators.permissions import adminsOnly
+from HarryPotter.core.decorators.permissions import adminsOnly
 from pyrogram import filters
 from pyrogram.types import Message
-from Rose.utils.caching import ADMIN_CACHE, TEMP_ADMIN_CACHE_BLOCK, admin_cache_reload
-from Rose.utils.parser import mention_html
+from HarryPotter.utils.caching import ADMIN_CACHE, TEMP_ADMIN_CACHE_BLOCK, admin_cache_reload
+from HarryPotter.utils.parser import mention_html
 from pyrogram.errors import (
     FloodWait,
     RPCError,
