@@ -1,4 +1,4 @@
-## Why Rose?
+## Why Harry?
 ```
 Harry was online since 2022 and want to help many admins to keep their groups effectively
 ```
