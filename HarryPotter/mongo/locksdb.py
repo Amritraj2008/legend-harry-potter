@@ -1,4 +1,4 @@
-from Rose.mongo import *
+from HarryPotter.mongo import *
 
 async def is_b_on(chat_id: int) -> bool:
     chat = await botlock.find_one({"bot_lock": chat_id})
