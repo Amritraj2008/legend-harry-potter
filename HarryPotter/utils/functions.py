@@ -4,8 +4,8 @@ from re import findall
 from re import sub as re_sub
 from sys import executable
 from pyrogram.types import Message
-from Rose import aiohttpsession as aiosession
-from Rose.mongo.restart import *
+from HarryPotter import aiohttpsession as aiosession
+from HarryPotter.mongo.restart import *
 
 
 async def restart(m: Message):
