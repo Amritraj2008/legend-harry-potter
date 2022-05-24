@@ -1,12 +1,12 @@
 from pyrogram.types import Message
-from Rose import *
-from Rose.utils.filter_groups import *
-from Rose.utils.filter_groups import *
+from HarryPotter import *
+from HarryPotter.utils.filter_groups import *
+from HarryPotter.utils.filter_groups import *
 from pyrogram.errors import (ChatAdminRequired, ChatWriteForbidden,
                              UserAdminInvalid)
 from os import remove         
-from Rose.utils.commands import *
-from Rose.utils.lang import *
+from HarryPotter.utils.commands import *
+from HarryPotter.utils.lang import *
 
 
 @app.on_message(command("nsfwscan"))
