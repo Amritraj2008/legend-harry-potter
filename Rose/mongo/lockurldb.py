@@ -1,9 +1,6 @@
-# Copyright (C) 2022 szsupunma
-# Copyright (C) 2021 @szrosebot
 
-# This file is part of @szrosebot (Telegram Bot)
 
-from Rose.mongo import urllockdb as lockurl
+from HarryPotter.mongo import urllockdb as lockurl
 
 
 def add_chat(chat_id):
