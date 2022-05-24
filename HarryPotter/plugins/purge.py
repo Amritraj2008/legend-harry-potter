@@ -1,10 +1,10 @@
 from asyncio import sleep
 from pyrogram.errors import MessageDeleteForbidden
 from pyrogram.types import Message
-from Rose import app 
-from Rose.utils.custom_filters import admin_filter, command
-from Rose.utils.lang import *
-from Rose.utils.commands import *
+from HarryPotter import app 
+from HarryPotter.utils.custom_filters import admin_filter, command
+from HarryPotter.utils.lang import *
+from HarryPotter.utils.commands import *
 
 
 @app.on_message(command("purge") & admin_filter)
