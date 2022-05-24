@@ -1,6 +1,6 @@
 from pyrogram.types import Message
-from Rose import *
-from Rose.mongo.rulesdb import Rules
+from HarryPotter import *
+from HarryPotter.mongo.rulesdb import Rules
 
 
 
