@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import CallbackQuery, Message
-from Rose import *
-from Rose.mongo.rulesdb import Rules
-from Rose.utils.custom_filters import admin_filter, command
-from Rose.utils.kbhelpers import rkb as ikb
-from Rose.utils.lang import *
+from HarryPotter import *
+from HarryPotter.mongo.rulesdb import Rules
+from HarryPotter.utils.custom_filters import admin_filter, command
+from HarryPotter.utils.kbhelpers import rkb as ikb
+from HarryPotter.utils.lang import *
 
 @app.on_message(command("rules") & filters.group)
 @language
