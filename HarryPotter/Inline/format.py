@@ -1,4 +1,4 @@
-from Rose import bot as app
+from HarryPotter  import bot as app
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton,InlineKeyboardMarkup
 
