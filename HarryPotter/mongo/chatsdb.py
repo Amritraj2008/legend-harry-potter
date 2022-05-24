@@ -1,4 +1,4 @@
-from Rose.mongo import chatsdb
+from HarryPotter.mongo import chatsdb
 
 
 async def get_served_chats() -> list:
