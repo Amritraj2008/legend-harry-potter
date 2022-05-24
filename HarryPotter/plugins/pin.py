@@ -1,11 +1,11 @@
 from html import escape as escape_html
 from pyrogram.types import Message
-from Rose import app 
-from Rose.mongo.pindb import Pins
-from Rose.utils.custom_filters import admin_filter, command
-from Rose.utils.kbhelpers import rkb as ikb
-from Rose.utils.string import build_keyboard, parse_button
-from Rose.utils.lang import *
+from HarryPotter import app 
+from HarryPotter.mongo.pindb import Pins
+from HarryPotter.utils.custom_filters import admin_filter, command
+from HarryPotter.utils.kbhelpers import rkb as ikb
+from HarryPotter.utils.string import build_keyboard, parse_button
+from HarryPotter.utils.lang import *
 
 @app.on_message(command("pin") & admin_filter )
 @language
