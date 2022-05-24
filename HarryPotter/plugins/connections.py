@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from Rose.mongo.connectiondb import add_connection, all_connections, if_active, delete_connection
+from HarryPotter.mongo.connectiondb import add_connection, all_connections, if_active, delete_connection
 import logging
-from Rose import *
+from HarryPotter import *
 from lang import get_command
-from Rose.utils.commands import *
-from Rose.utils.lang import *
+from HarryPotter.utils.commands import *
+from HarryPotter.utils.lang import *
 
 CONNECT = get_command("CONNECT")
 DISCONNECT = get_command("DISCONNECT")
