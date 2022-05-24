@@ -1,9 +1,9 @@
 from pymongo import MongoClient
-from Rose import *
+from HarryPotter import *
 
 MONGO_PORT = ("27017")
 MONGO_DB_URI = MONGO_URL
-MONGO_DB = "Rose"
+MONGO_DB = "HarryPotter"
 
 anti = MongoClient(MONGO_DB_URI)[MONGO_DB]
 
