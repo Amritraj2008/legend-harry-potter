@@ -1,4 +1,4 @@
-from Rose import bot as app
+from HarryPotter import bot as app
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton,InlineKeyboardMarkup
 
@@ -149,8 +149,7 @@ We was added **Multi Assistant Mode** for High Number of Chats.
 • Assistant 5️⃣ :- @vcpalyassistant4
 
 **Credits** - 
--「🇮🇳」°『||ᴀᴅ•✘•ᴍᴜꜱɪᴄ||』
-- @not_just_Nikhil
+- amritraj
 👨‍💻 - Please Don't add all assistant to your group use 1
 And also we remove assistant monthly in all groups.
 """
