@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.errors import ChatAdminRequired
 from pyrogram.types import  InlineKeyboardMarkup, Message
-from Rose import *
-from Rose.mongo.gban import GBan
-from Rose.mongo.welcomedb import Greetings
-from Rose.utils.custom_filters import admin_filter, command
-from Rose.utils.string import (
+from HarryPotter import *
+from HarryPotter.mongo.gban import GBan
+from HarryPotter.mongo.welcomedb import Greetings
+from HarryPotter.utils.custom_filters import admin_filter, command
+from HarryPotter.utils.string import (
     build_keyboard,
     parse_button,
 )
@@ -14,10 +14,10 @@ from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup,Message)
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
-from Rose.mongo.captcha import captchas    
-from .captcha import send_captcha     
-from Rose.utils.lang import *
-from Rose.utils.filter_groups import *
+from HarryPotter.mongo.captcha import captchas    
+from HarryPotter.captcha import send_captcha     
+from HarryPotter.utils.lang import *
+from HarryPotter.utils.filter_groups import *
 
 
 gdb = GBan()
