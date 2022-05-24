@@ -1,13 +1,13 @@
 from pyrogram.errors import PeerIdInvalid, RPCError, UserNotParticipant
 from pyrogram.types import  Message
-from Rose import  app 
-from Rose.mongo.approvedb import Approve
-from Rose.utils.custom_filters import admin_filter, command, owner_filter
-from Rose.utils.extract_user import extract_user
-from Rose.utils.kbhelpers import rkb as ikb
-from Rose.utils.parser import mention_html
+from HarryPotter import  app 
+from HarryPotter.mongo.approvedb import Approve
+from HarryPotter.utils.custom_filters import admin_filter, command, owner_filter
+from HarryPotter.utils.extract_user import extract_user
+from HarryPotter.utils.kbhelpers import rkb as ikb
+from HarryPotter.utils.parser import mention_html
 from lang import get_command
-from Rose.utils.lang import *
+from HarryPotter.utils.lang import *
 
 APPROVE = get_command("APPROVE")
 DISAPPROVE = get_command("DISAPPROVE")
