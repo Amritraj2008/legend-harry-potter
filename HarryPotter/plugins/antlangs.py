@@ -5,16 +5,16 @@
 from pyrogram import filters
 from pyrogram.types import Message
 from re import search
-from Rose import app as NEXAUB
-from Rose.core.decorators.permissions import adminsOnly
-from Rose import app
-from Rose.mongo.antilang import *
+from HarryPotter import app as NEXAUB
+from HarryPotter.core.decorators.permissions import adminsOnly
+from HarryPotter import app
+from HarryPotter.mongo.antilang import *
 from re import compile
-from Rose.utils.filter_groups import antifunc_group
+from HarryPotter.utils.filter_groups import antifunc_group
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton,  Message
-from Rose.utils.lang import *
+from HarryPotter.utils.lang import *
 from lang import get_command
-from Rose.utils.commands import *
+from HarryPotter.utils.commands import *
 
 
 async def edit_or_reply(message, text, parse_mode="md"):
