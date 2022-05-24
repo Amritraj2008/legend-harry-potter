@@ -3,3 +3,18 @@ services:
   worker:
     build: .
     environment:
+
+         
+
+       BOT_TOKEN: $BOT_TOKEN
+       API_ID: $API_ID
+       API_HASH: $API_HASH
+       API_ID1: $API_ID1
+       API_HASH1: $API_HASH
+       SUDO_USERS_ID: $SUDO_USER_ID
+       LOG_GROUP_ID: $LOG_GROUP_ID
+       BASE_DB: $BASE_DB
+       MONGO_URL: $MONGO_URL
+       ARQ_API_URL: $ARQ_API_URL
+       ARQ_API_KEY: $ARQ_API_KEY
+       COMMAND_PREFIXES: $COMMAND_PREFIXES
