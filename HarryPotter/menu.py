@@ -1,7 +1,7 @@
-from Rose import bot as app
+from HarryPotter import bot as app
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton,InlineKeyboardMarkup
-from Rose.utils.lang import *
+from HarryPotter.utils.lang import *
 
 
 fbuttons = InlineKeyboardMarkup(
@@ -25,12 +25,7 @@ keyboard =InlineKeyboardMarkup(
                 text="हिन्दी🇮🇳", callback_data="languages_hi"
             )
         ],
-        [
-            InlineKeyboardButton(
-                text="🌎 Help us with translation",
-                url=f"https://crwd.in/szrosebot",
-            )
-        ],
+       
         [
             InlineKeyboardButton(
                 text="Close ✖️", callback_data="close_data"
