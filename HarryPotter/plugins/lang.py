@@ -3,10 +3,10 @@
 ###################################
 
 from lang import get_string
-from Rose.mongo.language import *
+from users.mongo.language import *
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup,Message
-from Rose.utils.lang import *
+from HarryPotter.utils.lang import *
 from lang import get_command
 
 LANG = get_command("LANG")
@@ -150,11 +150,6 @@ __helpbtns__ = (
                 text="తెలుగు 🇮🇳", callback_data="languages_ta"
             )
         ],
-        [
-            InlineKeyboardButton(
-                text="🌎 Help us with translation",
-                url=f"https://crwd.in/szrosebot",
-            )
-        ],
+        
     ]
 )
