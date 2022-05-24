@@ -1,13 +1,13 @@
 from html import escape
 from pyrogram import filters
 from pyrogram.types import CallbackQuery, Message
-from Rose import  app 
-from Rose.mongo.blacklistdb import Blacklist
-from Rose.utils.custom_filters import command, owner_filter, restrict_filter
-from Rose.utils.kbhelpers import rkb as ikb
+from HarryPotter import  app 
+from HarryPotter.mongo.blacklistdb import Blacklist
+from HarryPotter.utils.custom_filters import command, owner_filter, restrict_filter
+from HarryPotter.utils.kbhelpers import rkb as ikb
 from lang import get_command
-from Rose.utils.commands import *
-from Rose.utils.lang import *
+from HarryPotter.utils.commands import *
+from HarryPotter.utils.lang import *
 
 BLACKLIST = get_command("BLACKLIST")
 ADDBLACK = get_command("ADDBLACK")
