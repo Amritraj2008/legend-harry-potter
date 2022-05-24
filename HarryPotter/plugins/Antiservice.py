@@ -1,11 +1,11 @@
 from pyrogram import filters
-from Rose import *
-from Rose.core.decorators.permissions import adminsOnly
-from Rose.mongo.antiservice import *
-from Rose.utils.filter_groups import *
+from HarryPotter import *
+from HarryPotter.core.decorators.permissions import adminsOnly
+from HarryPotter.mongo.antiservice import *
+from HarryPotter.utils.filter_groups import *
 from lang import get_command
 from pyrogram.types import Message
-from Rose.utils.lang import *
+from HarryPotter.utils.lang import *
 from pyrogram.types import InlineKeyboardButton
 
 cleandb = dbn.cleanmode
