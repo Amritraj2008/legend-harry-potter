@@ -1,12 +1,12 @@
 from pyrogram import filters
 from pyrogram.errors import RPCError
 from pyrogram.types import CallbackQuery, Message
-from Rose import app
-from Rose.mongo.reportdb import Reporting
-from Rose.core.decorators.permissions import adminsOnly
-from Rose.utils.kbhelpers import rkb as ikb
-from Rose.utils.parser import mention_html
-from Rose.utils.commands import *
+from HarryPotter import app
+from HarryPotter.mongo.reportdb import Reporting
+from HarryPotter.core.decorators.permissions import adminsOnly
+from HarryPotter.utils.kbhelpers import rkb as ikb
+from HarryPotter.utils.parser import mention_html
+from HarryPotter.utils.commands import *
 
 
 @app.on_message(command("reports") & ~filters.edited )
