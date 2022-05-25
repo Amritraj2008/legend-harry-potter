@@ -3,7 +3,7 @@
 ###################################
 
 from lang import get_string
-from users.mongo.language import *
+from HarryPotter.mongo.language import *
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup,Message
 from HarryPotter.utils.lang import *
