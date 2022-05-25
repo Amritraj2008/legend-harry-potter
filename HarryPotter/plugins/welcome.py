@@ -9,7 +9,7 @@ from HarryPotter.utils.string import (
     build_keyboard,
     parse_button,
 )
-from Rose.core.decorators.permissions import adminsOnly
+from HarryPotter.core.decorators.permissions import adminsOnly
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup,Message)
 from pyrogram.types import (InlineKeyboardButton,
