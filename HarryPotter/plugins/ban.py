@@ -3,8 +3,8 @@ from time import time
 from pyrogram import filters
 from pyrogram.types import Message
 from pyrogram.errors import RPCError
-from Rose.utils.extract_user import extract_user
-from Rose import BOT_ID, SUDOERS, app
+from HarryPotter.utils.extract_user import extract_user
+from HarryPotter import BOT_ID, SUDOERS, app
 from HarryPotter.utils.functions import (extract_user_and_reason,
                                  time_converter)
 from HarryPotter.core.decorators.permissions import adminsOnly
