@@ -13,7 +13,7 @@ from HarryPotter.utils.string import (
     escape_mentions_using_curly_brackets,
     parse_button,
 )
-from Rose.mongo.connectiondb import active_connection
+from HarryPotter.mongo.connectiondb import active_connection
 from lang import get_command
 
 SAVE = get_command("SAVE")
