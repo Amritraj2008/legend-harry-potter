@@ -15,7 +15,7 @@ from pyrogram.types import (InlineKeyboardButton,
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
 from HarryPotter.mongo.captcha import captchas    
-from HarryPotter.captcha import send_captcha     
+from HarryPotter.plugins.captcha import send_captcha     
 from HarryPotter.utils.lang import *
 from HarryPotter.utils.filter_groups import *
 
