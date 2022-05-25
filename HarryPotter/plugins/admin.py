@@ -17,13 +17,13 @@ from time import time
 import os
 from pyrogram import filters
 from pyrogram.types import Message
-from Rose.plugins.rules import *
-from Rose import BOT_ID, SUDOERS, app
+from HarryPotter.plugins.rules import *
+from HarryPotter import BOT_ID, SUDOERS, app
 from lang import get_command
-from Rose.utils.functions import extract_user
-from Rose.utils.commands import *
-from Rose.core.decorators.permissions import adminsOnly
-from Rose.utils.lang import *
+from HarryPotter.utils.functions import extract_user
+from HarryPotter.utils.commands import *
+from HarryPotter.core.decorators.permissions import adminsOnly
+from HarryPotter.utils.lang import *
 from pyrogram.errors import (
     FloodWait,
     RPCError,
@@ -401,5 +401,5 @@ Make it easy to promote and demote users with the admin module!
 
 Sometimes, you promote or demote an admin manually, and Rose doesn't realise it immediately. This is because to avoid spamming telegram servers, admin status is cached locally.
 This means that you sometimes have to wait a few minutes for admin rights to update. If you want to update them immediately, you can use the /reload command;
-that'll force Rose to check who the admins are again. 
+that'll force Harry to check who the admins are again. 
 """
