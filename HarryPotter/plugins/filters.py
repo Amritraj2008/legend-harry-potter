@@ -18,7 +18,7 @@ from HarryPotter.utils.string import (
     split_quotes,
 )
 from pyrogram import filters
-from Rose.mongo.connectiondb import active_connection
+from HarryPotter.mongo.connectiondb import active_connection
 from lang import get_command
 from HarryPotter.utils.lang import *
 from HarryPotter.utils.filter_groups import *
