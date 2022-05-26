@@ -234,7 +234,7 @@ async def help_parser(name, keyboard=None):
 I'm a group management bot with some useful features.
 You can choose an option below, by clicking a button.
 If you have any bugs or questions on how to use me, 
-have a look at my [Docs](https://szsupunma.gitbook.io/rose-bot/).
+have a look at my [Docs](https://telegra.ph/HARRY-POTTER-05-26-2).
 **All commands can be used with the following: / **""",
         keyboard,
     )
