@@ -94,7 +94,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 text="📓 Documentation",
-                url=f"https://szsupunma.gitbook.io/rose-bot/",
+                url=f"https://telegra.ph/HARRY-POTTER-05-26-2",
             )
         ],
         [
