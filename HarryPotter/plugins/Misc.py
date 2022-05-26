@@ -334,7 +334,7 @@ __MODULE__ = "Player"
 __HELP__ = """
 **A Telegram Music+Video Streaming bot with some useful features.**
 
-**Few Features Here**[?](https://notreallyshikhar.gitbook.io/Rosemusicbot/about/getting-started/features)
+
 
 - Zero lagtime Video + Audio + live stream player.
 - Working Queue and Interactive Queue Checker.
