@@ -51,7 +51,7 @@ async def gstats(_, message):
     datasiz = str(datasiz)
     storag = supun["storageSize"] / 1024
     smex = f"""
-◈<u> ** v1.0.9 Stats Here**</u>◈
+◈<u> ** v2.0 Stats Here**</u>◈
 
 ► <u>**System Stats**</u>
 
@@ -69,7 +69,7 @@ async def gstats(_, message):
 • **Notes Count** : `{(notesdb.count_all_notes())}`  **In**  `{(notesdb.count_notes_chats())}`  **chats**
 • **Rules:** `{(rulesdb.count_chats_with_rules())}` 
 
-@Theszrosebot | @szteambots    
+@legend_harry_bot | @tech_sav_bots    
     """
     await response.edit_text(smex)
     return
@@ -131,7 +131,7 @@ async def broadcast_messages(user_id, message):
 
 
 
-UPSTREAM_REPO = "https://github.com/szsupunma/sz-rosebot"
+UPSTREAM_REPO = "https://github.com/amritraj2008/legend-harry-potter-2"
 
 def gen_chlog(repo, diff):
     upstream_repo_url = Repo().remotes[0].config_reader.get("url").replace(".git", "")
