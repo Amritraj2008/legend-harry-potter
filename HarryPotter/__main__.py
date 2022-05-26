@@ -55,8 +55,8 @@ async def start_bot():
  _____________________________________________   
 |                                             |  
 |          Deployed Successfully              |  
-|         (C) 2021-2022 by @szteambots        | 
-|          Greetings from supun  :)           |
+|         (C) 2021-2022 by @tech_sav_bots        | 
+|          Greetings from amrit  :)           |
 |_____________________________________________|  
                                                                                                
     """)
@@ -234,7 +234,7 @@ async def help_parser(name, keyboard=None):
 I'm a group management bot with some useful features.
 You can choose an option below, by clicking a button.
 If you have any bugs or questions on how to use me, 
-have a look at my [Docs](https://szsupunma.gitbook.io/rose-bot/), or head to @szteambots.
+have a look at my [Docs](https://szsupunma.gitbook.io/rose-bot/).
 **All commands can be used with the following: / **""",
         keyboard,
     )
